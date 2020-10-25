@@ -1,0 +1,1006 @@
+{
+  "participants": [
+    {
+      "name": "Uni Friend"
+    },
+    {
+      "name": "Jaedan Calder"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414466093,
+      "content": "gl",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Uni Friend"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414385716,
+      "content": "ok legend ty ty",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414316878,
+      "content": "Top left is 0,0 for me",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414309412,
+      "content": "Correct",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414303604,
+      "content": "by 1",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414302968,
+      "content": "but you're increasing how deep you are",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414296501,
+      "content": "going down -1",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414294093,
+      "content": "i keep thinking of it like",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414286153,
+      "content": "oh right i get you oops",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414282724,
+      "content": "j is the left-right position",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414276460,
+      "content": "i is depth",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414176481,
+      "content": "isnt it always going down",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414168370,
+      "content": "\"you're digger can't go to (i + 1, j -1)\"\n\ndid you mean\n(i-1, j+1) ?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414092361,
+      "content": "your*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414076588,
+      "content": "So if you came from (i - 1, j - 1), then (i, j), you're digger can't go to (i + 1, j -1)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414045291,
+      "content": "add conditions to the recurrence?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414025555,
+      "content": ".",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414020267,
+      "content": "However, the tricky part comes when you add the rule back in",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414011809,
+      "content": "thanks <3",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586414007424,
+      "content": "ok i see i see",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586414003313,
+      "content": "Yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413990818,
+      "content": "= max(opt(i-1, j-1), opt(i-1, j+1), opt(i-1, j)) ?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413982495,
+      "content": "i is the depth you're on, j is the \"width\" you're on",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413954283,
+      "content": "So OPT(i, j)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413945865,
+      "content": "Your tile set is and i. j grid",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413927329,
+      "content": "like OPT(something)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413919738,
+      "content": "but how do i write case 1",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413914818,
+      "content": "so i have OPT(i)  = max{case 1, case 2, case 3}",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413875748,
+      "content": "I'm not sure what you mean",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413841364,
+      "content": "how do i distinguish the paths within opt",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413806086,
+      "content": "yeah i follow that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413725579,
+      "content": "its*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413716366,
+      "content": "So that tile needs to take the best of the three as it's best profit path",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413693546,
+      "content": "Yeah, You can reach any tile (apart from the edges) three places",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413672559,
+      "content": "so cases would be goes straight down, goes down-right, goes down-elft",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413636789,
+      "content": "So when I say turn left or right is can go down-right, or down-left",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413605288,
+      "content": "Remember that your digger can turn left or right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413582522,
+      "content": "needs 2 variables probably",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413573971,
+      "content": "idk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413573257,
+      "content": "opt(i) = max profit of path up to depth i?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413520873,
+      "content": "yeah im seeing the knapsack similarity",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413509475,
+      "content": "It's very similar to the knapsack problem",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1586413499708,
+      "content": "Ignore the constraint the the miner can't do sharp turns, what would the subproblems be?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413465948,
+      "content": "and tips for defining subproblems?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1586413449254,
+      "content": "you said this was easy :( algos :(",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967930697,
+      "content": "This assignment is probably taking me way longer than it should lmao",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967917744,
+      "content": "<3",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967915993,
+      "content": "Cheers <e",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967913282,
+      "content": "And I've been trying to set the depth as I go but maybe I should store the path and try calculate the depth that way",
+      "reactions": [
+        {
+          "reaction": "\u00f0\u009f\u0091\u008d",
+          "actor": "Jaedan Calder"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967893935,
+      "content": "I don't store the path but I find the path at the very end",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967883266,
+      "content": "Ok I'm definitely close thanks",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967726668,
+      "content": "Obviously, each time you check a node you expand it if you haven't before, and then add it the list of nodes you've expanded. If the len(expanded) == 1000 then you exit out of your ids",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967624511,
+      "content": "The depth of each node for me is the len(node.path)",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967611077,
+      "content": "Need to remember that once we hit the max you don't add the children anymore",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967590717,
+      "content": "up to*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967590569,
+      "content": "yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967587529,
+      "content": "Ids is a dfs of to the depth",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967580903,
+      "content": "same shit alright oops",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967565687,
+      "content": "instead of appending and removing the last",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967561618,
+      "content": "im just prepending and removing the first elemtn",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967555705,
+      "content": "ok im doing the same thing",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967552527,
+      "content": "oh wait",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967543033,
+      "content": "ok cool but i thought ids was like dfs?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967520661,
+      "content": "Not a queue",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967517972,
+      "content": "It's a stack",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967506500,
+      "content": "Last in first out",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967481516,
+      "content": "Last",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967471562,
+      "content": "so we remove the last element or the first element",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967438479,
+      "content": "list.pop() in python removes the last element",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967427048,
+      "content": "No it's a stack",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967424552,
+      "content": "i think thats where i could be getting stuck",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967418553,
+      "content": "do you still count this node as expanded even if you don't generate new children due to the depth resrriction?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967389111,
+      "content": "If our current depth < max_depth then we need to add the children of this node to the fringe. Otherwise we are a leaf so we don't add our children",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967387912,
+      "content": "just clarifying",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967380565,
+      "content": "so this makes the fringe more of a queue than a stack right",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967318376,
+      "content": "Nah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967314231,
+      "content": "is that it?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967309884,
+      "content": "yup",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967295385,
+      "content": "Otherwise, get the pop the first node in the fringe and check if it's our target. If it is then return the node.path (that I store in each Digit).",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967292502,
+      "content": "yup that's g",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967219269,
+      "content": "If the fringe length is zero, then the depth wasn't deep enough, so add the root back to the fringe and increase the max depth by one",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967177710,
+      "content": "yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967173939,
+      "content": "The stack is the fringe",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967173906,
+      "content": "yup",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967164277,
+      "content": "1. So first of all we initialise a stack with the root.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967141532,
+      "content": "yeah ids",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967135623,
+      "content": "i've passed everything for dfs and bfs",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967135411,
+      "content": "Ids?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967119599,
+      "content": "but they don't show dls",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967116994,
+      "content": "im doing the whole fringe-expanded setup from the slides",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967094740,
+      "content": "<3",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967092203,
+      "content": "Sure",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967084381,
+      "content": "idk",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967083062,
+      "content": "condition for determing whether you expand or not",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967076741,
+      "content": "or like what you main sorta",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585967072595,
+      "content": "ok cool would you be able to give a run down on like how you implemented dls",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585967055573,
+      "content": "I use basically no recursion",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585966948094,
+      "content": "I'll have a look",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585965765372,
+      "content": "lmao",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585965763306,
+      "content": "because ive been doing it all iteratively but im kinda stumped at ids",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585965750192,
+      "content": "hey did you use a lot of recursion",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585566772943,
+      "content": "not breaking cylces",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1585565198743,
+      "content": "Lmao",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585565162007,
+      "content": "Progressing nicely",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1585565158791,
+      "videos": [
+        {
+          "uri": "messages/inbox/testchat_123abc/videos/video1585565158_218933832549849.mp4",
+          "creation_timestamp": 1585565158,
+          "thumbnail": {
+            "uri": "messages/inbox/testchat_123abc/videos/thumbnails/91620650_2824478754337385_5842602360242720890_n.jpg"
+          }
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584970778703,
+      "content": "i mean idk if he was good but he was playing it how you should",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584970753948,
+      "content": "this guy definitely was though",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584970750700,
+      "content": "yeah i know",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584970711385,
+      "content": "So many people don't play correctly",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584970700669,
+      "content": "Yeah you meed to find people that are actually good though",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584969650320,
+      "content": "This shit is hyping me up from a video lmao",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584969639448,
+      "photos": [
+        {
+          "uri": "messages/inbox/testchat_123abc/photos/90971375_238623090869881_8371460987315814400_n_238623080869882.jpg",
+          "creation_timestamp": 1584969639
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584962025418,
+      "content": "Ok good call",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961909813,
+      "content": "Legit can't go back",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961902992,
+      "content": "Don't really need to, but don't play eternal before playing doom 2016 if you are",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961883782,
+      "content": "so i might have to binge them when i can",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961876547,
+      "content": "i havent played the first one though either oops",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961865111,
+      "content": "the soundtrack's too good",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961859068,
+      "content": "that's sick",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961692766,
+      "content": "https://www.youtube.com/watch?v=_RG7UBH17_w",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961629769,
+      "content": "idk its fucked",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961605280,
+      "content": "as far as ive gotten",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961602846,
+      "content": "but that's like",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961598930,
+      "content": "from the lecture",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961597182,
+      "content": "i think it might be something like the count and merge part of the counting inversions algo",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961587698,
+      "content": "But I've so much time trying to solve it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961580127,
+      "content": "It's rare for me to give up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961572329,
+      "content": "naive is so easy though",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961570578,
+      "content": "I've legit given up on that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961566612,
+      "content": "it's rough",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961562452,
+      "content": "Nah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961557847,
+      "content": "have you managed to do the algos assignmetn yet",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584961548432,
+      "content": "will definitely play it when i can hahahaha",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961539560,
+      "content": "Very fun. Smashed through it on the weekend",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584961523431,
+      "content": "Yeah Doom is sick",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Uni Friend"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584691561477,
+      "content": "When I create a node it produces a list of numbers that are allowed to be explored. For eg. Create 123 and it will make [023, 223, 113, 133, 122, 124] and then it will remove the two that the previous node in it's path changed from. Eg 122 -> 123. So node 123.allowed = [023, 223, 122, 124]",
+      "reactions": [
+        {
+          "reaction": "\u00e2\u009d\u00a4",
+          "actor": "Uni Friend"
+        }
+      ],
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584691381953,
+      "content": "Just gotta tidy it up",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584691379264,
+      "content": "Alright cheers I'm probably on the right track then",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584691342669,
+      "content": "Yeah",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584691335502,
+      "content": "So you used a fringe all that",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584691327176,
+      "content": "Yeah I was gonna try follow the pseudo code too alright sweet",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584689369770,
+      "content": "The resulting code for each traversal strategy looks very similar to the algorithm pseudocode which made debugging very easy",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584689327483,
+      "content": "The answer node*",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584689103603,
+      "content": "Oh I see ok cool ty to",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584688823809,
+      "content": "When it finds the solution, the answer nice has a member called 'path' that contains a list of nodes path. As I traverse, each time I explore a node it is added to a list called 'expanded' for each traversal strategy.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584688409211,
+      "content": "Wdym by handles the paths? \u00f0\u009f\u00a5\u00ba\u00f0\u009f\u00a5\u00ba",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584688034518,
+      "content": "Yeah I just had a mate who thought otherwise lol",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584687437242,
+      "content": "Cause some of them are huge",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584687431167,
+      "content": "You have to",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584687426982,
+      "content": ".",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584687418473,
+      "content": "I created a Digit class that  handles the numbers and paths for me so all the implementations are quite short for me actually.",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584687323730,
+      "content": "Or did you make the whole tree and traverse it using the methods",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584687316455,
+      "content": "Did you generate the tree as you went",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Jaedan Calder",
+      "timestamp_ms": 1584687209249,
+      "content": "Yeah I've done it",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584683212338,
+      "content": "this is for the ai assignment btw have you started?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584683198632,
+      "content": "avoid doing this lmao",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584683192049,
+      "content": "how do i",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Uni Friend",
+      "timestamp_ms": 1584683178279,
+      "photos": [
+        {
+          "uri": "messages/inbox/testchat_123abc/photos/90055784_3055353501183420_5198366649706610688_n_242464770257738.jpg",
+          "creation_timestamp": 1584683177
+        }
+      ],
+      "type": "Generic"
+    }
+  ],
+  "title": "Uni Friend",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/testchat_123abc"
+}
